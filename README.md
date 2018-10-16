@@ -7,7 +7,7 @@ The only current drawback is that Windows-only tool is required to flash an add-
 
 **WARNING:** Add-ons are *not* compatible with encrypted devices!
 
-## How to apply
+## How to apply or update the add-on
 The ZIP archive with add-on contains `readme.txt` file with full instruction. Please read and follow it.
 
 ## How to revert back to stock
