@@ -11,7 +11,7 @@ The only current drawback is that Windows-only tool is required to flash an add-
 The ZIP archive with add-on contains `readme.txt` file with full instruction. Please read and follow it.
 
 ## How to revert back to stock
-Add-on survives factory reset. I provide a package, similar to add-on, with original firmware parts, that effectively removes all add-on functionality, but it leaves some files on the devices. If you really need full cleanup, you have to flash the official firmware and then make factory reset.
+Add-on survives factory reset. I provide a [package, similar to add-on, with original firmware parts](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v0.01.008stock), that effectively removes all add-on functionality, but it leaves some files on the devices. If you really need full cleanup, you have to flash the official firmware and then make factory reset.
 
 ## Changes made
 1. Google Play Store added.
