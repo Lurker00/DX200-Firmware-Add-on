@@ -5,7 +5,7 @@ Android 8.1 for DX200 protects main partitions with [Verity](https://source.andr
 
 The only current drawback is that Windows-only tool is required to flash an add-on, but, on the other hand, the same tool is required to flash the official firmware.
 
-To check the current version in Android mode, go to _Settings_, _About DX200_, _Build number_ at the bottom.
+To check the current add-on version in Android mode, go to _Settings_, _About DX200_, _Build number_ at the bottom.
 
 **WARNING:** Add-ons are *not* compatible with encrypted devices!
 
