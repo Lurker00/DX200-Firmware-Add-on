@@ -17,5 +17,9 @@ Add-on survives factory reset. I provide a [package, similar to add-on, with ori
 1. Google Play Store added.
 2. The process of [device registration](https://www.google.com/android/uncertified/) is much simplified (required to make Google Play Services work on uncertified device).
 3. Magisk can be used to install additional modules, and to provide root access.
+4. [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md), which currently is useful only for its [System settings](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md#system-settings).
+5. Safer parameters of battery charger to prevent overheating.
+6. Safer parameters for CPU, GPU, RAM.
+7. 128MHz CPU frequency added (216MHz is officially lowest), which is enough for most tasks.
 
 **Note:** Updating an add-on removes additional Magisk modules. You'll have to re-install them after the update.
