@@ -10,7 +10,7 @@ The only current drawback is that Windows-only tool is required to flash an add-
 ## How to apply or update the add-on
 The ZIP archive with add-on contains `readme.txt` file with full instruction. Please read and follow it.
 
-**Note:** Updating an add-on removes additional Magisk modules. You'll have to re-install them after the update.
+**Note:** Updating an add-on removes additional [Magisk](https://magiskmanager.com/) modules. You'll have to re-install them after the update.
 
 ## How to revert back to stock
 Add-on survives factory reset. I provide a [package, similar to add-on, with original firmware parts](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v0.01.008stock), that effectively removes all add-on functionality, but it leaves some files on the devices. If you really need full cleanup, you have to flash the official firmware and then make factory reset.
@@ -18,8 +18,8 @@ Add-on survives factory reset. I provide a [package, similar to add-on, with ori
 ## Changes made
 1. Google Play Store added.
 2. The process of [device registration](https://www.google.com/android/uncertified/) is much simplified (required to make Google Play Services work on uncertified device).
-3. Magisk can be used to install additional modules, and to provide root access.
+3. [Magisk](https://magiskmanager.com/) can be used to install additional modules, and to provide root access.
 4. [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md), which currently is useful only for its [System settings](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md#system-settings).
 5. Safer parameters of battery charger to prevent overheating.
 6. Safer parameters for CPU, GPU, RAM.
-7. 128MHz CPU frequency added (216MHz is officially lowest), which is enough for most tasks.
+7. 126MHz CPU frequency added (216MHz is officially lowest), which is enough for most tasks.
