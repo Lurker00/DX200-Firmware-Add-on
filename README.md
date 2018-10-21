@@ -18,9 +18,6 @@ The ZIP archive with add-on contains `readme.txt` file with full instruction. Pl
 Add-on survives factory reset. I provide a [package, similar to add-on, with original firmware parts](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v0.01.008stock), that effectively removes all add-on functionality, but it leaves some files on the devices. If you really need full cleanup, you have to flash the official firmware and then make factory reset.
 
 ## Changes made
-* SD-card read/write speed increased.
-* Safer parameters of battery charger to prevent overheating.
-* Safer parameters for CPU, GPU, RAM.
 ### Android
 * Google Play Store added.
 * The process of [device registration](https://www.google.com/android/uncertified/) is much simplified (required to make Google Play Services work on uncertified device).
@@ -31,6 +28,10 @@ Add-on survives factory reset. I provide a [package, similar to add-on, with ori
 ### Mango
 * Removed Android services, that are not used in this mode.
 * Performance insreased.
+### Common
+* SD-card read/write speed increased.
+* Safer parameters of battery charger to prevent overheating.
+* Safer parameters for CPU, GPU, RAM.
 
 ## History of public releases
 **1.10** - Increased SD-card read/write speed, optimized Mango mode.
