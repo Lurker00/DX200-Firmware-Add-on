@@ -14,17 +14,14 @@ The ZIP archive with add-on contains `readme.txt` file with full instruction. Pl
 
 **Note:** Updating an add-on removes additional [Magisk](https://magiskmanager.com/) modules. You'll have to re-install them after the update.
 
-## How to revert back to stock
-Add-on survives factory reset. I provide a [package, similar to add-on, with original firmware parts](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v0.01.008stock), that effectively removes all add-on functionality, but it leaves some files on the devices. If you really need full cleanup, you have to flash the official firmware and then make factory reset.
-
 ## Changes made
 ### Android
 * Google Play Store added.
 * The process of [device registration](https://www.google.com/android/uncertified/) is much simplified (required to make Google Play Services work on uncertified device).
 * [Magisk](https://magiskmanager.com/) can be used to install additional modules, and to provide root access.
-* [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md), which currently is useful only for its [System settings](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md#system-settings).
+* [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md), which is also useful for its [System settings](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md#system-settings).
+* Custom build of [HibyMusic](https://play.google.com/store/apps/details?id=com.hiby.music), which plays bit perfect PCM up to 32/384kHz with no additional efforts, and fully compatible with [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md) for bitperfect DSD and SACD ISO playback.
 * 126MHz CPU frequency added (216MHz is officially lowest), which is enough for most tasks.
-* Instability problem (reboots or shutdowns in sleep mode) has been resolved.
 ### Mango
 * Removed Android services, that are not used in this mode.
 * Performance insreased.
@@ -34,6 +31,11 @@ Add-on survives factory reset. I provide a [package, similar to add-on, with ori
 * Safer parameters for CPU, GPU, RAM.
 
 ## History of public releases
+**1.12**:
+* Full support for [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md).
+* Custom build of [HibyMusic](https://play.google.com/store/apps/details?id=com.hiby.music) included.
+* Fix: full label is shown for exFAT formatted SD-cards.
+
 **1.10** - Increased SD-card read/write speed, optimized Mango mode.
 
 **1.09** - first public release.
