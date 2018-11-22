@@ -1,6 +1,6 @@
 # Firmware update from SD-card
 
-RockChip based devices support firmware updates by booting from a specially prepared SD-card. The official way requires a Windows-based application from RockChip and device boot loader file.
+RockChip SoC based devices support firmware updates by booting from a specially prepared SD-card. The official way requires a Windows-based application from RockChip and device boot loader file.
 
 [`DX200FirmwareUpdater.zip`](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/download/v1.12/DX200-A8.1-L1.12-sdupdate.zip) archive contains ready to use SD-card image file with 4GB partition, to update firmware on iBasso DX200.
 
@@ -20,7 +20,7 @@ If all went right way, you should have the following files in the root folder of
 
 ## Update firmware
 
-You need firmware update image file. For Android Oreo, iBasso provides `update.img` in its download. My firmware releases to be used with RockChip FactoryTool contain compatible `.img` file as well.
+You need firmware update image file. For Android Oreo, iBasso provides `update.img` in its download. My firmware releases, to be used with RockChip FactoryTool (*not* files to be used with rkflashtool!), contain compatible `.img` file as well.
 
 1. Rename required `.img` file to `sdupdate.img`.
 2. Copy resulting `sdupdate.img` to the prepared bootable SD-card, confirming overwriting existing file.
