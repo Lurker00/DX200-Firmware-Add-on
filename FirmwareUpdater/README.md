@@ -5,9 +5,9 @@ RockChip based devices support firmware updates by booting from a specially prep
 `DX200FirmwareUpdater.zip` archive contains a ready to use SD-card image file with 4GB partition, to update firmware on iBasso DX200.
 
 ## Prepare bootable SD-card
-**WARNING:** writing the SD-card image file erases all the data on the card! To restore the SD-card for normal use, please use [SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter_4/), available for any platform.
-
 You may use any SD-card with capacity of 4GB or more.
+
+**WARNING:** writing the SD-card image file erases all the data on the card! To restore the SD-card for normal use, please use [SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter_4/), available for any platform.
 
 You need to unzip the downloaded archive and write the `.img` file directly to SD-card. Under Windows, [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) can be used. Under Linux and MacOS, `dd` command from console performs the task, though great caution is required!
 
