@@ -9,7 +9,7 @@ You may use any SD-card with capacity of 4GB or more.
 
 **WARNING:** writing the SD-card image file erases all the data on the card! To restore the SD-card for normal use, please use [SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter_4/), available for MacOS and Windows.
 
-You need to unzip the downloaded archive and write the `.img` file directly to SD-card. Under Windows, [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) can be used. Under Linux and MacOS, `dd` command from console performs the task, though great caution is required!
+You need to unzip the downloaded archive and write the `.img` file directly to SD-card. Under Windows, [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) can be used. Under Linux and MacOS, [`dd` command](https://en.wikipedia.org/wiki/Dd_(Unix)) from console performs the task, though great caution is required! For MacOS, there is [Etcher](https://en.wikipedia.org/wiki/Etcher_(software)) GUI application that should do it.
 
 If all went right way, you should have the following files in the root folder of the SD-card:
 * `sd_boot_config.config`
