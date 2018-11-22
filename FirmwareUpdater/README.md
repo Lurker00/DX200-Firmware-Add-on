@@ -35,5 +35,5 @@ In a few seconds it should start updating the firmware. At the end, it will prom
 
 You may keep several firmware images on the bootable SD-card under different file names. Only the one named `sdupdate.img` is used for the firmware update.
 
-You may use this SD-card to revert back from Android 8.1 to 2.10.215L0 using [full flash firmware image](https://github.com/Lurker00/DX200-firmware/releases/download/v2.10.215/DX200FirmwareV2.10.215-L0-fullflash.zip).
+You may use this SD-card to revert back from Android 8.1 to 2.10.215-L0 using [full flash firmware image](https://github.com/Lurker00/DX200-firmware/releases/download/v2.10.215/DX200FirmwareV2.10.215-L0-fullflash.zip).
 
