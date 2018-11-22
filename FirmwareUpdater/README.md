@@ -16,7 +16,7 @@ If all went right way, you should have the following files in the root folder of
 * `sdupdate.img`
 * `rksdfw.tag`
 
-`sdupdate.img` is empty (0 bytes), and it is the placeholder from the real firmware update image file.
+`sdupdate.img` is empty (0 bytes), and it is the placeholder for the real firmware update image file.
 
 ## Update firmware
 
@@ -34,3 +34,6 @@ In a few seconds it should start updating the firmware. At the end, it will prom
 ## Useful notes
 
 You may keep several firmware images on the bootable SD-card under different file names. Only the one named `sdupdate.img` is used for the firmware update.
+
+You may use this SD-card to revert back from Android 8.1 to 2.10.215L0 using [full flash firmware image](https://github.com/Lurker00/DX200-firmware/releases/download/v2.10.215/DX200FirmwareV2.10.215-L0-fullflash.zip).
+
