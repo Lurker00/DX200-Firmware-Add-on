@@ -9,7 +9,7 @@ You may use any SD-card with capacity of 4GB or more.
 
 **WARNING:** writing the SD-card image file erases all the data on the card! To restore the SD-card for normal use, please use [SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter_4/), available for MacOS and Windows.
 
-You need to unzip the downloaded archive and write the `.img` file directly to SD-card. Under Windows, [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) can be used. Under Linux and MacOS, [`dd` command](https://en.wikipedia.org/wiki/Dd_(Unix)) from console performs the task, though great caution is required! Also, there is [Etcher](https://en.wikipedia.org/wiki/Etcher_(software)) GUI application that may do it (I'm not sure!).
+You need to unzip the downloaded archive ([`DX200FirmwareUpdater.zip`](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/download/v1.12/DX200FirmwareUpdater.zip)) and write the `DX200FirmwareUpdater.img` file directly to SD-card. Under Windows, [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) can be used. Under Linux and MacOS, [`dd` command](https://en.wikipedia.org/wiki/Dd_(Unix)) from console performs the task, though great caution is required! Also, there is [Etcher](https://en.wikipedia.org/wiki/Etcher_(software)) GUI application that does it.
 
 If all went right way, you should have the following files in the root folder of the SD-card:
 * `sd_boot_config.config`
@@ -20,14 +20,17 @@ If all went right way, you should have the following files in the root folder of
 
 ## Update firmware
 
+**WARNING:** Firmware update from bootable SD card is performed only when DX200 is not connected to a power supply or USB port. Charge it before starting firmware update!
+
 You need firmware update image file. For Android Oreo, iBasso provides `update.img` in its download. My firmware releases, to be used with RockChip FactoryTool (*not* files to be used with rkflashtool!), contain compatible `.img` file as well.
 
 1. Rename required `.img` file to `sdupdate.img`.
-2. Copy resulting `sdupdate.img` to the prepared bootable SD-card, confirming overwriting existing file.
+2. Copy resulting `sdupdate.img` to the prepared bootable SD-card, confirming to overwrite existing file.
 3. Safely remove (unmount) SD-card from the computer.
-4. Turn DX200 off.
-5. Insert SD-card into DX200.
-6. Turn DX200 on.
+4. Disconnnect DX200 from a charger or USB port (if it is connected).
+5. Turn DX200 off.
+6. Insert SD-card into DX200.
+7. Turn DX200 on.
 
 In a few seconds it should start updating the firmware. At the end, it will prompt you to remove the SD-card from the slot, and will continue update, and then boot the device.
 
