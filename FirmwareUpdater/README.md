@@ -11,7 +11,7 @@ You may use any SD-card with capacity of 4GB or more.
 
 You need to unzip the downloaded archive ([`DX200FirmwareUpdater.zip`](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/download/v1.12/DX200FirmwareUpdater.zip)) and write the `DX200FirmwareUpdater.img` file directly to SD-card. Under Windows, [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) can be used. Under Linux and MacOS, [Etcher](https://en.wikipedia.org/wiki/Etcher_(software)) GUI application performs the task (see [below](#an-instruction-for-macos-users) for example). Experienced users may use [`dd` command](https://en.wikipedia.org/wiki/Dd_(Unix)) from console, though great caution is required!
 
-If all went right way, you should have the following files in the root folder of the SD-card:
+If all went right way, you should have SD-card labeled as `DX200UPDATE`, with the following content:
 * `sd_boot_config.config`
 * `sdupdate.img`
 * `rksdfw.tag`
