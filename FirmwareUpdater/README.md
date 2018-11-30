@@ -28,11 +28,12 @@ You need firmware update image file. For Android Oreo, iBasso provides `update.i
 2. Copy resulting `sdupdate.img` to the prepared bootable SD-card, confirming to overwrite existing file.
 3. Safely remove (unmount) SD-card from the computer.
 4. Disconnect DX200 from a charger or USB port (if it is connected).
-5. Turn DX200 off.
-6. Insert SD-card into DX200.
-7. Turn DX200 on.
+5. If your DX200 boots to Mango, switch it to boot to Android.
+6. Turn DX200 off.
+7. Insert SD-card into DX200.
+8. Turn DX200 on.
 
-In a few seconds it should start updating the firmware. At the end, it will prompt you to remove the SD-card from the slot, and will continue update, and then boot the device.
+In a few seconds it should start updating the firmware. At the end, it will prompt you to remove the SD-card from the slot, and will continue update, then erase storages and boot the device.
 
 ## Useful notes
 
