@@ -63,7 +63,7 @@ c. Download & unzip [iBasso’s Oreo](http://ibasso.com/down.php)<br />
 1. Doubleclick into `DX200UPDATE`
 1. Open another Finder window
 1. Navigate to the unzipped iBasso Oreo (c) above
-1. Go to `DX200-Android8.1-Beta-V2/DX200-Android8.1-Beta-V2`
+1. Go to `DX200FW-8.1-V1.01.006/DX200FW-V1.0-image`
 1. Copy `update.img` to the `DX200UPDATE` finder window
 1. Right-click the `sdupdate.img` (Zero bytes) and Move to Bin
 1. Right-click `update.img` and Rename to `sdupdate.img`
@@ -80,7 +80,7 @@ c. Download & unzip [iBasso’s Oreo](http://ibasso.com/down.php)<br />
 1. You now have iBasso's Oreo
 
 **For Lurker0's USB Audio/HiByMusic Plug-in**
-1. Download and unzip Lurker's [DX200-A8.1-L1.12-sdupdate.zip](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.12)
+1. Download and unzip Lurker's [DX200-A8.1-L1.13-sdupdate.zip](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.13)
 1. Go in there and copy his `sdupdate.img` (140,052,952 bytes) into the `DX200UPDATE`
 1. It's ok to overwrite the iBasso's Oreo `sdupdate.img` (or rename the iBasso's Oreo to whatever, up to you)
 1. Eject and follow the same procedures above steps 17-20
