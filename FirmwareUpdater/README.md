@@ -81,7 +81,7 @@ c. Download & unzip [iBasso’s Oreo](http://ibasso.com/down.php)<br />
 
 **For Lurker0's USB Audio/HiByMusic Plug-in**
 1. Download and unzip Lurker's [DX200-A8.1-L1.13-sdupdate.zip](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.13)
-1. Go in there and copy his `sdupdate.img` (169,271,768 bytes) into the `DX200UPDATE`
+1. Go in there and copy his `sdupdate.img` (169,257,432 bytes) into the `DX200UPDATE`
 1. It's ok to overwrite the iBasso's Oreo `sdupdate.img` (or rename the iBasso's Oreo to whatever, up to you)
 1. Eject and follow the same procedures above steps 17-20
 1. This time however, the update is very quick < 1 min
