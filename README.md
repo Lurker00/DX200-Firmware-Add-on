@@ -1,9 +1,7 @@
 # iBasso DX200 firmware add-on by Lurker
 
 ## Introduction
-Android 8.1 for DX200 protects main partitions with [Verity](https://source.android.com/security/verifiedboot), which makes it tricky for end user to flash custom firmware. [Magisk](https://magiskmanager.com/) allows developers to alter system systemless-ly, i.e. without any direct modification of the protected parts of the firmware image. That's why my modifications for 8.1 are distributed as add-ons: you must have installed and running the original firmware, then you apply (flash over) an add-on. It makes the download smaller, update process faster, and *it is compatible between different official firmware builds*!
-
-The only current drawback is that Windows-only tool is required to flash an add-on, but, on the other hand, the same tool is required to flash the official firmware.
+Android 8.1 for DX200 protects main partitions with [Verity](https://source.android.com/security/verifiedboot), which makes it tricky for end user to flash custom firmware. [Magisk](https://magiskmanager.com/) allows developers to alter system systemless-ly, i.e. without any direct modification of the protected parts of the firmware image. That's why my modifications for 8.1 are distributed as add-ons: you must have installed and running the original firmware, then you apply (flash over) an add-on. It makes the download smaller and update process faster!
 
 To check the current add-on version in Android mode, go to _Settings_, _About DX200_, _Build number_ at the bottom.
 
@@ -31,12 +29,4 @@ The ZIP archive with add-on contains `readme.txt` file with full instruction. Pl
 * Safer parameters for CPU, GPU, RAM.
 
 ## History of public releases
-**1.12**:
-* Full support for [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md).
-* Custom build of [HibyMusic](https://play.google.com/store/apps/details?id=com.hiby.music) included.
-* Fix: full label is shown for exFAT formatted SD-cards.
-
-**1.10** - Increased SD-card read/write speed, optimized Mango mode.
-
-**1.09** - first public release.
-
+**1.13** - release for official firmware 1.01.006.
