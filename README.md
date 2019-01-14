@@ -28,8 +28,7 @@ After iBasso released OTA-like update (1.05.036), it is enough to re-apply the u
 * Performance insreased.
 ### Common
 * Safer parameters of battery charger to prevent overheating.
-* Safer parameters for CPU, GPU, RAM.
 
 ## History of public releases
-[**1.16**](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.16) - release for official firmware 1.05.036.
-[**1.13**](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.13) - release for official firmware 1.01.006.
+* [**1.16**](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.16) - release for official firmware 1.05.036.
+* [**1.13**](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.13) - release for official firmware 1.01.006.
