@@ -8,7 +8,7 @@ To check the current add-on version in Android mode, go to _Settings_, _About DX
 **WARNING:** Add-ons are *not* compatible with encrypted devices!
 
 ## How to apply or update the add-on
-The ZIP archive with the add-on contains `readme.txt` file with full instruction. Please read and follow it.
+There are two packages to choose from: either Windows-only (using included AndroidTool), or any platform (using [DX200-bootable SD-card](https://github.com/Lurker00/DX200-Firmware-Add-on/tree/master/FirmwareUpdater)). The ZIP archive with the add-on contains `readme.txt` file with full instruction. Please read and follow it.
 
 **Note:** Updating an add-on removes additional [Magisk](https://magiskmanager.com/) modules. You'll have to re-install them after the update.
 
