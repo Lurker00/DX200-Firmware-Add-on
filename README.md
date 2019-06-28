@@ -13,7 +13,7 @@ There are two packages to choose from: either Windows-only (using included Andro
 **Note:** Updating an add-on removes additional [Magisk](https://magiskmanager.com/) modules. You'll have to re-install them after the update.
 
 ## How to return back to the official firmware
-After iBasso released OTA-like update (1.05.036), it is enough to re-apply the update, then do a factory reset.
+After iBasso released OTA-like update (1.05.036 or later), it is enough to re-apply any official firmare update, then do a factory reset.
 
 ## Changes made
 ### Android
