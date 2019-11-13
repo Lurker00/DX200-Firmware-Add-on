@@ -5,12 +5,17 @@ Android 8.1 for DX200 protects main partitions with [Verity](https://source.andr
 
 To check the current add-on version in Android mode, go to _Settings_, _About DX200_, _Build number_ at the bottom.
 
-**WARNING:** Add-ons are *not* compatible with encrypted devices!
+**WARNING:** Add-ons are *not* compatible with encrypted devices!<br />
+**WARNING:** Do *not* update Magisk via MagiskManager! It will cause problems!
 
 ## How to apply or update the add-on
 There are two packages to choose from: either Windows-only (using included AndroidTool), or any platform (using [DX200-bootable SD-card](https://github.com/Lurker00/DX200-Firmware-Add-on/tree/master/FirmwareUpdater)). The ZIP archive with the add-on contains `readme.txt` file with full instruction. Please read and follow it.
 
+For Windows, you should have installed drivers from Rockchip. You can download them [here](https://github.com/Lurker00/DX220-Firmware-Add-on/tree/master/files).
+
 **Note:** Updating an add-on removes additional [Magisk](https://magiskmanager.com/) modules. You'll have to re-install them after the update.
+
+If you need Magisk Manager, please install it manually from the [official source](https://github.com/topjohnwu/Magisk/releases/).
 
 ## How to return back to the official firmware
 After iBasso released OTA-like update (1.05.036 or later), it is enough to re-apply any official firmare update, then do a factory reset.
