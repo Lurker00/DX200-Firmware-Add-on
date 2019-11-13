@@ -30,6 +30,7 @@ After iBasso released OTA-like update (1.05.036 or later), it is enough to re-ap
 * Safer parameters of battery charger to prevent overheating.
 
 ## History of public releases
+* [**1.22**](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.18) - release for official firmware 1.09.097.
 * [**1.18**](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.18) - release for official firmware 1.07.082.
 * [**1.17**](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.17) - release for official firmware 1.06.041.
 * [**1.16**](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.16) - release for official firmware 1.05.036.
