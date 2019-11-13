@@ -20,19 +20,27 @@ If you need Magisk Manager, please install it manually from the [official source
 ## How to return back to the official firmware
 After iBasso released OTA-like update (1.05.036 or later), it is enough to re-apply any official firmare update, then do a factory reset.
 
+## How to update the official firmware
+You need to download the update from [iBasso site](http://ibasso.com/down.php), put it to SD-card or Internal storage, and start manual upgrade. Then you may install an add-on compatible with the new firmware version, if any.
+
 ## Changes made
 ### Android
 * Google Play Store added.
+* Reduced power consumption during music playback and in suspend mode.
+* Overall performance increased.
+* During music playback, the device is managed to prevent idle state tasks.
+* Performance tweak for popular music players (Neutron, UAPP, Tidal, Spotify). Such a tweak is used on Rockchip SoC based devices for benchmark apps, iBasso sets it for its Mango Player.
+* The process of [device registration](https://www.google.com/android/uncertified/) is much simplified (required to make Google Play Services work on uncertified device).
 * [Magisk](https://magiskmanager.com/) can be used to install additional modules, and to provide root access.
 * [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md), which is also useful for its [System settings](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md#system-settings).
-* Custom build of [HibyMusic](https://play.google.com/store/apps/details?id=com.hiby.music), which plays bit perfect PCM up to 32/384kHz with no additional efforts, and fully compatible with [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md) for bit perfect DSD and SACD ISO playback.
-* 126MHz CPU frequency added (216MHz is officially lowest), which is enough for most tasks.
-* The process of [device registration](https://www.google.com/android/uncertified/) is much simplified (required to make Google Play Services work on uncertified device).
+* Custom build of [HibyMusic](https://play.google.com/store/apps/details?id=com.hiby.music), which plays bit perfect PCM up to 32/384kHz with no additional efforts, and is fully compatible with [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md) for bit perfect DSD and SACD ISO playback.
+* Removed APKPure, CoolAPK.
 ### Mango
 * Removed Android services, that are not used in this mode.
 * Performance insreased.
 ### Common
 * Safer parameters of battery charger to prevent overheating.
+* Better thermal control.
 
 ## History of public releases
 * [**1.22**](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.22) - release for official firmware 1.09.097.
