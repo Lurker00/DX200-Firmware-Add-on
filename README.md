@@ -35,12 +35,16 @@ You need to download the update from [iBasso site](http://ibasso.com/down.php), 
 * [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md), which is also useful for its [System settings](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md#system-settings).
 * Custom build of [HibyMusic](https://play.google.com/store/apps/details?id=com.hiby.music), which plays bit perfect PCM up to 32/384kHz with no additional efforts, and is fully compatible with [USB Audio application](https://github.com/Lurker00/DX200-USB-Audio-Release/blob/master/README.md) for bit perfect DSD and SACD ISO playback.
 * Removed APKPure, CoolAPK.
+
 ### Mango
 * Removed Android services, that are not used in this mode.
 * Performance insreased.
+
 ### Common
 * Safer parameters of battery charger to prevent overheating.
 * Better thermal control.
+
+**Note**: MagiskManager icon is, actually, a stub injected by Magisk core. It is intended by the developer to help installing full MagiskManager, but I disable it to stop annoying. Should you need [MagiskManager, please install it manually](https://github.com/topjohnwu/Magisk/releases).
 
 ## History of public releases
 * [**1.22**](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.22) - release for official firmware 1.09.097.
