@@ -24,6 +24,8 @@ After iBasso released OTA-like update (1.05.036 or later), it is enough to re-ap
 You need to download the update from [iBasso site](http://ibasso.com/down.php), put it to SD-card or Internal storage, and start manual upgrade. Then you may install an add-on compatible with the new firmware version, if any.
 
 ## Changes made
+It's up to the end user to decide whether these changes affect sound or not. I believe some of them make sound better, and none of them make sound worse.
+
 ### Android
 * Google Play Store added.
 * Reduced power consumption during music playback and in suspend mode.
