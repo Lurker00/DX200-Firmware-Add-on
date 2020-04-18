@@ -49,6 +49,7 @@ It's up to the end user to decide whether these changes affect sound or not. I b
 **Note**: MagiskManager icon is, actually, a stub injected by Magisk core. It is intended by the developer to help installing full MagiskManager, but I disable it to stop annoying. Should you need [MagiskManager, please install it manually](https://github.com/topjohnwu/Magisk/releases).
 
 ## History of public releases
+* [**1.23**](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.23) - release for official firmware 1.10.120.
 * [**1.22**](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.22) - release for official firmware 1.09.097.
 * [**1.18**](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.18) - release for official firmware 1.07.082.
 * [**1.17**](https://github.com/Lurker00/DX200-Firmware-Add-on/releases/tag/v1.17) - release for official firmware 1.06.041.
